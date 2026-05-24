@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* .outer{
+     border: 1px solid black;
+     height: 715px;
+} */
+
+/* .outer{
+    height: 715px;
+    background-image:linear-gradient(to right,rgba(186, 61, 61, 0.57),rgba(70, 70, 205, 0.548)),url('https://content3.jdmagicbox.com/comp/lucknow/z4/0522px522.x522.180821052115.q1z4/catalogue/aktu-new-campus-jankipuram-extension-lucknow-universities-PRDfZDCbAJ.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* filter: blur(5px); 
+
+    border: 1px solid transparent;
+} */
+
+/* .login{
+    height: 32vw;
+    width: 30%;
+    margin: 8vw auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+.headline{
+    padding: 1.5vw 0;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.headline h2{
+    color: darkred;
+    }
+
+.maincontainer{
+    height: 20vw;
+    width: 90%;
+    
+    margin: 1vw auto;
+    padding: 1vw;
+    
+}
+
+.maincontainer input{
+    width: 100%;
+    height: 3vw;
+    margin-top: 1vw;
+    border-radius: 1vw;
+    border: 1px solid black;
+    padding-left: 1.2vw;
+    font-size: 1vw;
+    
+}
+
+.maincontainer button{
+    background-color: rgba(45, 62, 118, 0.92);;
+    width: 100%;
+    height: 3vw;
+    color: white;
+    text-transform: uppercase;
+    border: 0px;
+    border-radius: 1vw;
+} */
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, rgb(147, 130, 165), rgb(148, 160, 181)); 
+  
+}
+
+.login-page {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.final-name {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.login-container {
+  background: rgba(170, 18, 18, 0.1); 
+  padding: 30px 40px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  width: 420px;
+  text-align: center;
+  color:white;
+  background-color: rgb(75, 75, 130);
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.input-btn input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: rgba(255,255,255,0.2);
+  color: #fff;
+  font-size: 1rem;
+}
+
+.input-btn input::placeholder {
+  color: #eae8e8;
+}
+
+.forgot-btn {
+  font-size: 0.9rem;
+  margin: 5px 0 15px 0;
+  cursor: pointer;
+  color: #ffedb5;
+}
+
+.forgot-btn:hover {
+  text-decoration: underline;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: #fff;
+  color: #2575fc;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 15px;
+}
+
+.login-btn:hover {
+  background: #ffedb5;
+  color: #333;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.register-btn {
+  font-size: 0.9rem;
+}
+
+.register-btn a {
+  color: #ffedb5;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-btn a:hover {
+  text-decoration: underline;
+}
